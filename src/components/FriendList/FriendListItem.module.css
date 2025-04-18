@@ -1,25 +1,24 @@
 .card {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-  }
-  
-  .avatar {
-    border-radius: 8px;
-  }
-  
-  .name {
-    font-weight: 600;
-    flex: 1;
-  }
-  
-  .online {
-    color: green;
-    font-weight: bold;
-  }
-  
-  .offline {
-    color: red;
-    font-weight: bold;
-  }
-  
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.avatar {
+  border-radius: 8px;
+}
+
+.name {
+  font-weight: bold;
+  flex: 1;
+}
+
+.online {
+  color: green;
+  font-weight: 600;
+}
+
+.offline {
+  color: red;
+  font-weight: 600;
+}
